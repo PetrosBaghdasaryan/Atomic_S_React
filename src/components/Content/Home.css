@@ -1,0 +1,19 @@
+.home1 h2   {
+
+}
+
+.next, .prev {
+    cursor: pointer;
+}
+
+.carousel-inner::after {
+    background-color: #213536;
+    opacity: .5;
+    content: "";
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}

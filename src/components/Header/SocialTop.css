@@ -1,0 +1,92 @@
+
+/****  SOCIAL   *******************************************************************************************************/
+
+
+.social {
+    position: fixed;
+    z-index: 1;
+    right: 0;
+    background-color: #213536;               /*****    SOCIAL FIX           ******************************************************************************************************/
+    top: 27%;
+
+}
+
+.social li {
+    list-style-type: none;
+
+}
+
+.social a {
+    font-size: 22px;
+    color: white;          /********  SOCIAL A FONT    ***************************************************************************************************/
+}
+
+.social1 {
+    padding: 3px;         /*****    SOCIAL UL CLASS      ******************************************************************************************************/
+}
+
+
+.social i {
+    width: 37px;
+    height: 37px;
+    color: #FFF;
+    background-color: #213536;           /*****    SOCIAL UL LI       ******************************************************************************************************/
+    font-size: 22px;
+    text-align: center;
+    padding-top: 10px;
+    transition: all ease 0.7s;
+}
+.social .fa-facebook:hover {
+    background: #4060A5;
+    border: 1px solid #4060A5;       /******  FACEBOOK IN HOVER  *****************************************************************************************************/
+}
+
+.social .fa-instagram:hover {
+    background: linear-gradient(205deg,#3E6AC8,#C934A8,#FC5143,#FFC650);
+    border: 1px solid #343434;                                             /******  INSTAGRAM IN HOVER  *****************************************************************************************************/
+}
+
+
+.social .fa-app-store-ios:hover {
+    background: linear-gradient(#1ec5f9,#1e70f7);
+    border: 1px solid #1aa7f7;                             /****** APP STORE IN HOVER  *****************************************************************************************************/
+}
+.social .fa-google-play:hover {
+    background: linear-gradient(106deg,#00D4FE 55%,#00F075 56%,#FFDB01 87%);
+    border: 1px solid #00d4fe;
+    color: #135663;                                                          /****** GOOGLE PLAY IN HOVER  *****************************************************************************************************/
+}
+
+
+/*****    END SOCIAL   ******************************************************************************************************/
+
+
+/****** TO-TOP BUTTON *****************************************************************************************************/
+
+#to-top {
+    display: none;
+    position: fixed;
+    right: 0;
+    top: 67%;
+    z-index: 3;
+    padding: 0.5rem 0.7rem;
+    font-size: 20px;
+    border-radius: .5rem;
+    background-color: #213536;
+    cursor: pointer;
+
+}
+
+#to-top i {
+
+    color: white;
+}
+
+
+
+#to-top:hover {
+
+    background-color: #4aa787;
+}
+/******   END TO-TOP BUTTON   *****************************************************************************************************/
+

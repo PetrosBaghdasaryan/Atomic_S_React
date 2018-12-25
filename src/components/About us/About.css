@@ -1,0 +1,35 @@
+@media only screen and (max-width: 770px) {
+    .team {
+
+        display: block !important;
+
+
+    }
+}
+
+
+
+.team img {
+    border-radius: 50%;
+    border: 4px solid #008afb;
+
+}
+
+
+
+.team1 {
+
+    border-radius: 50%;
+    box-shadow: 0 0 20px rgb(63, 125, 250),  0 0 80px rgba(63, 125, 250, 0.5);
+    overflow: hidden;
+
+}
+
+.team div img{
+    transition: all .7s;      /****  LOGO TRANSITION *******************************************************************************************************/
+}
+
+.team div img:hover {
+    transform: scale3d(1.3 , 1.2, 1);                   /****  LOGO IN HOVER *******************************************************************************************************/
+    cursor: pointer;
+}
